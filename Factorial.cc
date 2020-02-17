@@ -1,0 +1,18 @@
+//Sahil Gupta
+//sahil16gupta11@gmail.com
+//@_the_stranded_alien_
+
+// C++ Code
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int factorial(int n) {
+	if (n == 0 || n == 1) return 1;
+	return (n * factorial(n - 1));
+}
+
+int main() {
+	cout << factorial(5) << endl;
+	return 0;
+}
